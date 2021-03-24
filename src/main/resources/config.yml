@@ -1,0 +1,52 @@
+#Alert Notifications:
+#Here you can set how many ores or spawners have to be mined to trigger these notifications!
+CoalOre: 6
+IronOre: 9
+NetherGoldOre: 7
+GoldOre: 5
+LapisOre: 6
+RedstoneOre: 8
+DiamondOre: 5
+EmeraldOre: 5
+AncientDebris: 3
+#Triggered when Zombie, Spider, Cave Spider, and Skeleton spawners are broken/
+Spawner: 3
+#Violation Amounts
+#Here you can set the amount of violations a player has to have before they are removed from the notification data type.
+#Messages
+#Here you can configure Mine Alert Messages
+MineAlertPrefix: "&7[&aMA&7] "
+MineAlertEnabled: "&7You have &aEnabled &eMine Alert&7!"
+MineAlertDisabled: "&7You have &cDisabled &eMine Alert&7!"
+#Mine Alert Notification Messages
+MineAlertMinedCoal: "&e%time% &6%player% &7has mined &0Coal &7[&e%amount%x&7]"
+MineAlertMinedIron: "&e%time% &6%player% &7has mined &8Iron &7[&e%amount%x&7]"
+MineAlertMinedNetherGold: "&e%time% &6%player% &7has mined &6Nether Gold &7[&e%amount%x&7]"
+MineAlertMinedGold: "&e%time% &6%player% &7has mined &6Gold &7[&e%amount%x&7]"
+MineAlertMinedLapis: "&e%time% &6%player% &7has mined a &3Lapis &7[&e%amount%x&7]"
+MineAlertMinedRedstone: "&e%time% &6%player% &7has mined a &cRedstone &7[&e%amount%x&7]"
+MineAlertMinedDiamond: "&e%time% &6%player% &7has mined a &bDiamond &7[&e%amount%x&7]"
+MineAlertMinedEmerald: "&e%time% &6%player% &7has mined an &aEmerald &7[&e%amount%x&7]"
+MineAlertMinedAncientDebris: "&e%time% &6%player% &7has mined &fAncient Debris &7[&e%amount%x&7]"
+MineAlertMinedSpawners: "&e%time% &6%player% &7has mined a &e%mobtype% &7Spawner &7[&e%amount%x&7]"
+#Mine Alert Settings Messages
+ItemPickUpIsAlreadyDisabled: "&7Your item pickup is already disabled!"
+ItemPickUpIsDisabled: "&7You have disabled item pickup!"
+ItemPickUpIsAlreadyEnabled: "&7Your item pickup is already enabled!"
+ItemPickUpIsEnabled: "&7You have enabled item pickup!"
+NightVisionAlreadyEnabled: "&7You already have Night Vision!"
+NightVisionEnabled: "&7You have enabled Night Vision!"
+NightVisionAlreadyDisabled:  "&7You don't have Night Vision!"
+NightVisionDisabled: "&7You have cleared your Night Vision effect!"
+SpectatorModeAlreadyEnabled: "&7You're already in Spectator Mode!"
+SpectatorModeEnabled: "&7You have enabled Spectator Mode!"
+SpectatorModeAlreadyDisabled: "&7You're not in Spectator Mode!"
+SpectatorModeDisabled: "&7You have disable Spectator Mode!"
+
+#MineAlert Interval
+#Here you can set the interval for how long it'll take for the data types to clear!
+Interval: 150
+#Whitelist
+#Here you can whitelist players that won't set off any alerts!
+Whitelisted:
+  - "Nose"
