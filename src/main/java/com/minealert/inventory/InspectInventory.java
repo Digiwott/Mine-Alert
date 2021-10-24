@@ -68,6 +68,9 @@ public class InspectInventory implements InterfaceInventory {
         //Emerald
         inventory.setItem(40, ItemBuilder.Builder.getInstance().itemType(Material.EMERALD).itemName(ChatColor.GREEN + "Emeralds").itemLore(ChatColor.GRAY + "Emeralds Mined: "
                 + ChatColor.GREEN + MineAlertDataTypes.emeraldsMined.get(player.getName())).itemAmount(1).build());
+        //Ancient Debris
+        inventory.setItem(41, ItemBuilder.Builder.getInstance().itemType(Material.ANCIENT_DEBRIS).itemName(ChatColor.WHITE + "Ancient Debris").itemLore(ChatColor.GRAY + "Ancient Debris Mined: "
+                + ChatColor.GREEN + MineAlertDataTypes.ancientdebrisMined.get(player.getName())).itemAmount(1).build());
         //Timer
         inventory.setItem(45, ItemBuilder.Builder.getInstance().itemType(Material.CLOCK).itemAmount(1).itemName(ChatColor.GRAY + "Timer: " + ChatColor.GREEN + MineAlert.getInterval()
         + ChatColor.GRAY + " Seconds").itemLore(ChatColor.GRAY + "Player's XRay Data Will Set To 0").build());
