@@ -80,6 +80,7 @@ public class BlockBreak implements Listener {
             case NETHER_GOLD_ORE:
                 PatchesUtil.getInstance().removeBlockLocation(block.getLocation());
                 NetherGoldAlert.getInstance().call(miner);
+                break;
             //Called when someone mines a spawner.
             case SPAWNER:
                 EntityType entityType = ((CreatureSpawner) block.getState()).getSpawnedType();
